@@ -42,10 +42,15 @@ mvn spring-boot:run
 
 Use ferramentas como **Postman** ou **Insomnia** para testar os seguintes endpoints REST:
 
-- `GET /alunos`: Listar todos os estudantes.
-- `POST /alunos`: Criar um novo estudante.
-- `PUT /alunos/{id}`: Atualizar um estudante existente.
-- `DELETE /alunos/{id}`: Excluir um estudante.
+- `GET /aluno`: Listar todos os estudantes.
+- `POST /aluno`: Criar um novo estudante.
+- `PUT /aluno/{id}`: Atualizar um estudante existente.
+- `DELETE /aluno/{id}`: Excluir um estudante.
+
+- `GET /curso`: Listar todos os cursos.
+- `POST /curso`: Criar um novo curso.
+- `PUT /curso/{id}`: Atualizar um curso existente.
+- `DELETE /curso/{id}`: Excluir um curso.
 
 ### Requisitos Funcionais
 
