@@ -23,7 +23,7 @@ Este projeto implementa uma aplicação CRUD utilizando Spring Boot e MariaDB, c
 
 ### 2. Configuração do Banco de Dados
 
-1. No arquivo `application.yml`, configure as credenciais de conexão com o MariaDB (usuário, senha e URL de conexão).
+1. No arquivo `application.yml`, configure as credenciais de conexão com o MariaDB (usuário, senha e URL de conexão) caso precise.
    
    Exemplo:
    - **URL**: `jdbc:mariadb://localhost:3306/alunos`
@@ -33,11 +33,10 @@ Este projeto implementa uma aplicação CRUD utilizando Spring Boot e MariaDB, c
 
 ### 3. Rodando a Aplicação
 
-Para rodar a aplicação, execute o seguinte comando:
+Para rodar a aplicação, rode pelo modulo da extensão `SPRING BOOT DASHBOARD`:
 
-```bash
-mvn spring-boot:run
-```
+![image](https://github.com/user-attachments/assets/4c0fa728-6c5a-4307-af60-a488f55bc6c2)
+
 ### 4. Testando os Endpoints
 
 Use ferramentas como **Postman** ou **Insomnia** para testar os seguintes endpoints REST:
